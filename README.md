@@ -1,0 +1,2 @@
+# gradecaculator
+im lazy
