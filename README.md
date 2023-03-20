@@ -1,2 +1,2 @@
 # gradecaculator
-im lazy
+calculate grades
