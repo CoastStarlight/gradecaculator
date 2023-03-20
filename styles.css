@@ -1,0 +1,36 @@
+.line{
+    border-top: 2px solid black;
+}
+
+*{
+    font-family: Verdana;
+    margin: 10px;
+}
+
+.perContainer {
+    border: 1px solid green;
+    margin-left: 0;
+}
+
+input{
+    border:2px solid green;
+}
+
+input:hover {
+    background-color: lightgray;
+}
+
+button {
+    background-color: limegreen; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: green;
+}

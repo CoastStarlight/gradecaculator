@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grade caculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <script src="index.js"></script>
+        <h1>Grade Caculator</h1>
+        <h3>by CoastStarlight</h3>
+        <div id="grades">
+            <div id="g1" class="perContainer">
+                <p>period 1</p>
+                <input type="text" id="g1i">
+            </div>
+            <div id="g2" class="perContainer">
+                <p>period 2</p>
+                <input type="text" id="g2i">
+            </div>
+            <div id="g3" class="perContainer">
+                <p>period 3</p>
+                <input type="text" id="g3i">
+            </div>
+            <div id="g4" class="perContainer">
+                <p>period 4</p>
+                <input type="text" id="g4i">
+            </div>
+            <div id="g5" class="perContainer">
+                <p>period 5</p>
+                <input type="text" id="g5i">
+            </div>
+            <div id="g6" class="perContainer">
+                <p>period 6</p>
+                <input type="text" id="g6i">
+            </div>
+        </div>
+        <button onclick="try{caculate()} catch(err) {alert(err)}">caculate</button>
+        <div class="line"></div>
+        <p>GPA:<br></p>
+        <p id="GPA">0.0</p>
+        <br>
+        <p>Worst grade:<br></p>
+        <p id="worst"></p>
+    </body>
+</html>
