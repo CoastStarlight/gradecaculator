@@ -9,7 +9,6 @@ let perIDs = [
 let grades = []
 
 
-// chart
 // Letter Grade	Percent Grade	4.0 Scale
 // A+	        97-100	        4.0
 // A	        93-96	        4.0
